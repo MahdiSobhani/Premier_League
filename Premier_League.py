@@ -33,9 +33,6 @@ for i in Chart.index:
         Top_10_Ply.append((Chart['Players'].loc[i]))
         Top_10_Slr.append(Chart['Salary(Euro)'].loc[i])
 
-
-Top_10_Slr ,Top_10_Ply
-
 with open('Top_10.txt','w') as File:
     File.write(f'{Top_10_Ply}')
     File.write('\n')
