@@ -40,10 +40,10 @@ with open('Top_10.txt','w') as File:
     File.write(f'{Top_10_Ply}')
     File.write('\n')
     File.write(f'{Top_10_Slr}')
-
+    
 #_______________________________________________________________________________ # Teams Payments
-print('\n',20 *' ','The Teams Payments Weekly (Euro)\n')
 
+print('\n',20 *' ','The Teams Payments Weekly (Euro)\n')
 
 def Teams_Payments():
 
@@ -96,8 +96,5 @@ def Teams_Payments():
                 Write.write(Total_CLubs_Salary[i[1]])
                 Write.write('\n')
 
+                
 Teams_Payments()
-
-
-
-
